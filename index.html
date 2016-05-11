@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tic tac toe</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    </head>
+    <body>
+        <!-- Inserta tu codigo aqui -->
+        <main>
+            <div class="container">
+                 <div class="row">
+                    <h1 class="title">Selectores</h1>
+                    <hr class="linea-title">
+                    <p>Ingresa el selector necesario para que se iluminen los elementos que en cada opción.</p>
+                    <input class="ejecutar" id="valor"></input>
+                    <button type="button" id="anterior" class="btn btn-primary">Anterior</button>
+                    <button type="button" id="siguiente" class="btn btn-primary">Siguiente</button>
+                    <div class="contenido">
+                        <p id="myid">This sentences is in <code>&lt;div id="myid"&gt;</code>. It is followed by a horizontal rule.</p>
+                        <hr>
+                        <p>This is a paragraph, wich means it is wrapped in <code>&lt;p&gt;</code> and <code>&lt;p&gt;</code>. Those "p" tags in the previous sentence are formatted as <code>&lt;code&gt;</code>. </p>
+                        <ul>
+                            <li>This is the first list item (<code>&lt;li&gt;</code>) in an unordered list (<code>&lt;ul&gt;</code>).</li>
+                            <li>This is the second list item. It has a <a href="">link</a> in it.</li>
+                            <li class="myclass">This is the third list item. It has a class of "myclass otherclass"</li>
+                            <li>This is the fourth list item. It has <br>strong</br> text and emphasized text.</li>
+                            <ul>
+                                <li>second-level list item 1 </li>
+                                <li>second-level list item 2 </li>
+                            </ul>
+                        </ul>
+                        <p class="myclass"><code>&lt;p class="myclass"&gt;</code> This is another paragraph. It has class="myclass" Otherwise, nothing <br>special</br> about it at all.</p>
+                        <p>This is a paragraph, wich means it is wrapped in <code>&lt;p&gt;</code> and <code>&lt;p&gt;</code>. Those "p" tags inthe previous sentence are formatted as <code>&lt;code&gt;</code>.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <input type="text" placeholder="text input">
+                            <input type="text" placeholder="disabled text input">
+                            <input type="password" value="password">
+                            <select >
+                                <option>select list w/ options</option>
+                                <option selected="selected">another option </option>
+                                <option>a third option</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-2">
+                            <textarea> This a textarea </textarea>
+                        </div>
+                        <select size="5">
+                            <option>select list w/ options</option>
+                            <option selected="selected">another option </option>
+                            <option>a third option</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="radio">radio checked
+                        </label>
+                        <label>
+                            <input type="radio">Radio Not Checked
+                        </label>
+                        <label>
+                            <input type="checkbox">Checkedbox Checked
+                        </label>
+                        <label>
+                            <input type="checkbox">Checkedbox Not  Checked
+                        </label>
+                        <label>
+                            <input type="checkbox">Another checkedbox Not Checked
+                        </label>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-primary">Submit input</button>
+                        <button type="button" class="btn btn-primary">Button input</button>
+                        <button type="button" class="btn btn-primary">Reset input</button>
+                        <span type="button" class="btn"><img src="#">Image input</>
+                        <button type="button" class="btn btn-primary">Button button</button>
+                        <button type="button" class="btn btn-primary">Seleccionar archivo</button>
+                        <span>Ningún archivo seleccionado</span>  
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script src="https://code.jquery.com/jquery-2.2.2.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
